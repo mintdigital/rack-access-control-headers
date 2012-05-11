@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Sends headers to allow FF to show font files cross-domain}
   gem.homepage      = "http://github.com/mintdigital/rack-access-control-headers"
 
-  gem.files         = ['lib/rack-access-control-headers.rb', 'lib/rack/rack-access-control-headers.rb']
+  gem.files         = ['lib/rack-access-control-headers.rb', 'lib/rack/access-control-headers.rb']
   gem.name          = "rack-access-control-headers"
   gem.version       = '0.0.1'
 end
