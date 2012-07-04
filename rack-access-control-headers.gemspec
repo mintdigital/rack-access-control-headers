@@ -8,4 +8,7 @@ Gem::Specification.new do |gem|
   gem.files         = ['lib/rack-access-control-headers.rb', 'lib/rack/access-control-headers.rb']
   gem.name          = "rack-access-control-headers"
   gem.version       = '0.0.2'
+
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'rack'
 end
